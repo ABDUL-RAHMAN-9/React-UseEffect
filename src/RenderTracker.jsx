@@ -12,8 +12,8 @@ function RenderTracker()
         }, 1000)
     }, [])  // <- add empty brackets here
     return (
-        <div>
-            <h1>INow I renderd {renderCount} times. </h1>
+        <div className='container'>
+            <h1>Now I rendered {renderCount} times. </h1>
         </div>
     )
 }
