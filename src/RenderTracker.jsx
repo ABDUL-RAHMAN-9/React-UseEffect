@@ -10,7 +10,7 @@ function RenderTracker()
         {
             updateRenderCount((prevCount) => prevCount + 1);
         }, 1000)
-    }, [])
+    }, [])  // <- add empty brackets here
     return (
         <div>
             <h1>INow I renderd {renderCount} times. </h1>
