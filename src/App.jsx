@@ -1,5 +1,6 @@
 import React from 'react'
 import Timer from './Timer'
+import RenderTracker from './RenderTracker'
 
 
 function App()
