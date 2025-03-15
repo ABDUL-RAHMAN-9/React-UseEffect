@@ -7,6 +7,7 @@ function App()
     return (
         <div>
             <Timer />
+            <RenderTracker/>
         </div>
     )
 }
